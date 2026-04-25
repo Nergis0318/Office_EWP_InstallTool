@@ -16,13 +16,15 @@ Windows에서 Microsoft Office Deployment Tool을 사용해 Excel, Word, PowerPo
 
 ## 사용 방법
 
-1. `Office_EWP_InstallTool.exe`를 실행합니다.
-2. `[1. 앱 및 기능 열기]`를 눌러 기존 Office가 있으면 제거합니다.
-3. `[2. OfficeScrubber 실행]`을 누릅니다.
-4. 열린 명령창에서 `[R] Remove all Licenses` 옵션을 선택합니다.
-5. `[3. 설치 파일 준비]`를 눌러 `C:\Office`에 설치 파일을 준비합니다.
-6. `[4. Office 설치 및 정리]`를 눌러 Office 설치를 시작합니다.
-7. 설치가 정상 종료되면 `C:\Office` 폴더가 자동으로 삭제됩니다.
+1. [Office_EWP_InstallTool_Portable.zip](https://github.com/Nergis0318/Office_EWP_InstallTool/releases/latest/download/Office_EWP_InstallTool_Portable.zip)을 다운로드 합니다.
+2. `Office_EWP_InstallTool_Portable.zip`을 압축 해제합니다.
+3. `Office_EWP_InstallTool.exe`를 관리자 권한으로 실행합니다.
+4. `[1. 앱 및 기능 열기]`를 눌러 기존 Office가 있으면 제거합니다.
+5. `[2. OfficeScrubber 실행]`을 누릅니다.
+6. 열린 명령창에서 `[R] Remove all Licenses` 옵션을 선택합니다.
+7. `[3. 설치 파일 준비]`를 눌러 `C:\Office`에 설치 파일을 준비합니다.
+8. `[4. Office 설치 및 정리]`를 눌러 Office 설치를 시작합니다.
+9. 설치가 정상 종료되면 `C:\Office` 폴더가 자동으로 삭제됩니다.
 
 ## 설치 대상
 
