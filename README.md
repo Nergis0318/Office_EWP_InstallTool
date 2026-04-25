@@ -67,7 +67,7 @@ cd "C:\Users\Nergis\Documents\Codex\2026-04-26\files-mentioned-by-the-user-confi
 
 ```powershell
 Compress-Archive `
-  -LiteralPath "Office_EWP_InstallTool.exe","README.txt","README.md","LICENSE","NOTICE" `
+  -LiteralPath "Office_EWP_InstallTool.exe","manual.txt","README.md","LICENSE","NOTICE" `
   -DestinationPath "Office_EWP_InstallTool_Portable.zip" `
   -Force
 ```
