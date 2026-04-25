@@ -50,8 +50,6 @@ Windows에서 Microsoft Office Deployment Tool을 사용해 Excel, Word, PowerPo
 이 프로젝트는 Windows 기본 .NET Framework 컴파일러로 빌드할 수 있습니다. 별도 Visual Studio나 .NET SDK가 필요하지 않습니다.
 
 ```powershell
-cd "C:\Users\Nergis\Documents\Codex\2026-04-26\files-mentioned-by-the-user-configuration"
-
 & "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" `
   /nologo `
   /target:winexe `
