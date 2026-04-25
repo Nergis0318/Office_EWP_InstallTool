@@ -1,4 +1,6 @@
-# Excel / Word / PowerPoint 설치 도구
+# Office_EWP_InstallTool
+
+Excel / Word / PowerPoint 설치 도구
 
 Windows에서 Microsoft Office Deployment Tool을 사용해 Excel, Word, PowerPoint를 설치하는 포터블 UI 도구입니다.
 
@@ -14,7 +16,7 @@ Windows에서 Microsoft Office Deployment Tool을 사용해 Excel, Word, PowerPo
 
 ## 사용 방법
 
-1. `OfficeInstallTool.exe`를 실행합니다.
+1. `Office_EWP_InstallTool.exe`를 실행합니다.
 2. `[1. 앱 및 기능 열기]`를 눌러 기존 Office가 있으면 제거합니다.
 3. `[2. OfficeScrubber 실행]`을 누릅니다.
 4. 열린 명령창에서 `[R] Remove all Licenses` 옵션을 선택합니다.
@@ -57,23 +59,23 @@ cd "C:\Users\Nergis\Documents\Codex\2026-04-26\files-mentioned-by-the-user-confi
   /reference:System.Windows.Forms.dll `
   /reference:System.Drawing.dll `
   /reference:System.IO.Compression.FileSystem.dll `
-  /out:OfficeInstallTool.exe `
-  OfficeInstallTool.cs
+  /out:Office_EWP_InstallTool.exe `
+  Office_EWP_InstallTool.cs
 ```
 
 배포용 zip을 만들려면 다음 명령을 실행합니다.
 
 ```powershell
 Compress-Archive `
-  -LiteralPath "OfficeInstallTool.exe","README.txt" `
-  -DestinationPath "OfficeInstallTool_Portable.zip" `
+  -LiteralPath "Office_EWP_InstallTool.exe","README.txt","README.md","LICENSE","NOTICE" `
+  -DestinationPath "Office_EWP_InstallTool_Portable.zip" `
   -Force
 ```
 
 ## 생성 파일
 
-- `OfficeInstallTool.exe`: 설치 없이 실행 가능한 포터블 UI 실행 파일
-- `OfficeInstallTool_Portable.zip`: 배포용 압축 파일
+- `Office_EWP_InstallTool.exe`: 설치 없이 실행 가능한 포터블 UI 실행 파일
+- `Office_EWP_InstallTool_Portable.zip`: 배포용 압축 파일
 - `C:\Office\setup.exe`: Office Deployment Tool, 설치 완료 후 삭제됨
 - `C:\Office\Configuration.xml`: Office 설치 구성 파일, 설치 완료 후 삭제됨
 
@@ -91,3 +93,11 @@ Compress-Archive `
 - 기존 Office 제거는 자동으로 수행하지 않습니다. Windows 설정에서 사용자가 직접 제거해야 합니다.
 - Office 설치에는 인터넷 연결이 필요합니다.
 - Office 설치 명령이 실패하거나 중간에 취소되면 `C:\Office`가 자동 삭제되지 않을 수 있습니다.
+
+## 라이선스
+
+Copyright 2026 Nergis
+
+이 프로젝트는 Apache License 2.0에 따라 배포됩니다. 전체 라이선스 전문은 `LICENSE` 파일을 확인하세요.
+
+이 프로젝트에는 Microsoft Office, Office Deployment Tool, OfficeScrubber가 포함되어 있지 않습니다. 해당 외부 도구와 Microsoft 제품은 각 제공자의 라이선스와 약관을 따릅니다.

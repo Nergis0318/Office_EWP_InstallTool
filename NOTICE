@@ -1,0 +1,10 @@
+Office_EWP_InstallTool
+
+Copyright 2026 Nergis
+
+This project provides a Windows UI helper for preparing and running Microsoft's
+Office Deployment Tool with an Office configuration file.
+
+This project does not include Microsoft Office, the Office Deployment Tool, or
+OfficeScrubber. Those third-party tools and Microsoft products are governed by
+their respective licenses and terms.

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OfficeInstallTool
+namespace Office_EWP_InstallTool
 {
     internal static class Program
     {
@@ -87,7 +87,7 @@ namespace OfficeInstallTool
 
         public MainForm()
         {
-            Text = "Excel / Word / PowerPoint 설치 도구";
+            Text = "Office_EWP_InstallTool";
             Width = 760;
             Height = 560;
             MinimumSize = new Size(680, 500);
@@ -109,7 +109,7 @@ namespace OfficeInstallTool
 
             var title = new Label
             {
-                Text = "Office 설치 준비 및 설치",
+                Text = "Office_EWP_InstallTool",
                 Font = new Font(Font.FontFamily, 15F, FontStyle.Bold),
                 AutoSize = true,
                 Margin = new Padding(0, 0, 0, 4)
